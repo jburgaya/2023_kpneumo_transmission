@@ -103,6 +103,17 @@ TBD
 - [ ] Heritability estimates using different distributions (i.e. for binary phenotypes the normal distribution is likely not appropriate?)
 - [ ] Add [abritamr](https://github.com/MDU-PHL/abritamr) to detect known AMR/VAGs
 
+## gwas Klebsiella pneumoniae transmissibility
+
+Set of newly sequenced hospital isolates from 2019-2023 of K.pnuemoniae in two different hospitals.
+After QC and metadata filtering there are a total of 4001 isolates to be used in this analysis.
+The phenotype are inferred transmission events (iTE), based on a snp-distance threshold and the samplingdate. transmission_1 includes the phenotype to be used, where only the strains with >= 2 iTE are counted (= 1), while the others are not countes as an iTE (= 0).
+The cofounders include sex of the patient, geographic location, age of the patient stratified in under_10, 10_to_60, over_60.
+
+mlst_scheme = kpneumoniae
+references for associatiosn:
+
+
 ## Reference
 
 TBD
