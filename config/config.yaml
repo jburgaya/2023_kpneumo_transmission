@@ -10,12 +10,10 @@ targets: [
 mlst_scheme: kpneumoniae
 
 # references for association summaries and annotation
-summary_references: "--reference 536 --reference CFT073 --reference ED1a --reference IAI1 --reference IAI39 --reference K-12_substr._MG1655 --reference UMN026 --reference UTI89"
-annotation_references: "--focus-strain 536 --focus-strain CFT073 --focus-strain ED1a --focus-strain IAI1 --focus-strain IAI39 --focus-strain K-12_substr._MG1655 --focus-strain UMN026 --focus-strain UTI89"
-enrichment_reference: "IAI39"
-#summary_references: "--reference PAO1 --reference UCBPP-PA14"
-#annotation_references: "--focus-strain PAO1 --focus-strain UCBPP-PA14"
-#enrichment_reference: "UCBPP-PA14"
+# chose this based on same reference as in https://www.nature.com/articles/s41467-022-30717-6
+summary_references: "--reference NTUH-K2044"
+annotation_references: "--focus-strain NTUH-K2044"
+enrichment_reference: "NTUH-K2044 "
 
 ##### inputs (there already) #####
 
