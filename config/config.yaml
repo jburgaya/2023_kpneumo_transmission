@@ -2,13 +2,12 @@
 
 # targets for associations
 targets: [
-         "phenotype1",
-         "phenotype2",
+         "transmission",
+         "transmission_1",
          ]
 
 # MLST scheme
-mlst_scheme: ecoli
-#mlst_scheme: "paeruginosa"
+mlst_scheme: kpneumoniae
 
 # references for association summaries and annotation
 summary_references: "--reference 536 --reference CFT073 --reference ED1a --reference IAI1 --reference IAI39 --reference K-12_substr._MG1655 --reference UMN026 --reference UTI89"
